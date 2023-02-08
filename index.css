@@ -1,0 +1,92 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+
+    margin: auto;
+    width: 750px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+  
+
+nav button {
+    border-radius: 10px;
+    border-width: 0px;
+    text-decoration: none;
+    color: white;
+    width: 15%;
+    margin: 2% 15%;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #FF764E;
+    vertical-align: middle;
+    text-align: center;
+  }
+  nav button:hover{
+   color: black;
+ 
+  }
+nav button:first-child{
+    background: #5ED3EB;
+    margin: 2%;
+    padding: 1px 20px;
+}
+
+nav button:last-child{
+    background: #FFCD69;
+    margin: 2%;
+}
+
+main div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+}
+
+.main_text {
+width: 70%;
+background-color: #DDB9A3;
+}
+
+.round-image{
+    
+    width: 90%;
+    height: 90%;
+    margin: auto;
+   border-radius: 100%;
+    
+}
+
+
+.turuncu-box{
+    background: #FF764E;
+    color: white;
+
+
+}
+
+
+#ozellikler {
+    margin: 2% auto;
+
+}
+
+#ozellikler img{
+    width: 30%;
+    height: 30%;
+    margin: 5% 30%;
+    
+}
+
+footer div {
+    background: url("./assets/footer_img.jpg");
+    height: 200px;
+    width: 100px;
+}
+
