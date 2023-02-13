@@ -1,47 +1,64 @@
-*{
+* {
     font-family: 'Roboto Mono', monospace;
 }
 
 .container {
 
     margin: auto;
-    width: 750px;
+    width: 90vw;
     font-family: 'Roboto Mono', monospace;
 }
 
-  
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
 
 nav button {
     border-radius: 10px;
     border-width: 0px;
     text-decoration: none;
     color: white;
-    width: 15%;
-    margin: 2% 15%;
+    width: 20%;
+    height: 10%;
     display: inline-block;
     padding: 10px 20px;
     background: #FF764E;
-    vertical-align: middle;
-    text-align: center;
-  }
-  nav button:hover{
-   color: black;
- 
-  }
-nav button:first-child{
-    background: #5ED3EB;
-    margin: 2%;
-    padding: 1px 20px;
+
 }
 
-nav button:last-child{
+nav button:hover {
+    color: black;
+
+}
+
+nav button:first-child {
+    background: #5ED3EB;
+    margin: 2%;
+    padding: 10px 20px;
+}
+
+nav button:last-child {
     background: #FFCD69;
     margin: 2%;
 }
 
 main div {
-    display: inline-block;
-    vertical-align: middle;
+    margin: 5% 0;
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+main div div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 h1 {
@@ -50,43 +67,45 @@ h1 {
 }
 
 .main_text {
-width: 70%;
-background-color: #DDB9A3;
+    display: flex;
+    flex-direction: column;
+    background-color: #DDB9A3;
+    vertical-align: middle;
+    text-align: center;
 }
 
-.round-image{
-    
-    width: 90%;
-    height: 90%;
+.round-image {
+    height: 25vh;
+    width: 25vh;
     margin: auto;
-   border-radius: 100%;
-    
+    border-radius: 100%;
 }
 
 
-.turuncu-box{
+.turuncu-box {
     background: #FF764E;
     color: white;
-
-
+    width: 90vh;
+    width: 90%;
+    text-align: center;
+    margin: auto;
 }
 
 
 #ozellikler {
-    margin: 2% auto;
-
+    margin: 5% auto;
+    width: 30vw;
 }
 
-#ozellikler img{
+#ozellikler img {
     width: 30%;
     height: 30%;
-    margin: 5% 30%;
-    
+    margin: 15% 30%;
 }
 
 footer div {
     background: url("./assets/footer_img.jpg");
     height: 200px;
-    width: 100px;
-}
+    width: 100%;
 
+}
